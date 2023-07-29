@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+<div id="header">
+  <div class="bg-dark">
+    <div class="container">
+        <div class="row py-2 text-center">
+                <div class="col-sm-12 col-md-auto col-lg-auto col-xl-auto col-xxl-auto text-light">
+                    <p class="m-0 user-select-none text-sm-center text-center">Contacts: +911234567890</p>
+                </div>
+                <div class="col-sm-12 col-md-auto col-lg-auto col-xl-auto col-xxl-auto text-light">
+                    <p class="m-0 user-select-none text-sm-center text-center"><i class="bi bi-envelope-check"></i>contact@thimpress.com</p>
+                </div>
+                <div class="col-sm-12 col-md-auto col-lg-auto col-xl-auto col-xxl-auto text-light">
+                    <p class="m-0 text-sm-center text-center" style="cursor: pointer; font-size: 15px;" id="demo"><i class="bi bi-person-check"></i>Demo Account</p>
+                </div>
+
+                <div class="ms-auto col-sm-12 col-md-auto col-lg-auto col-xl-auto col-xxl-auto text-light">
+                    <a class="m-0 text-sm-center text-center" style="cursor: pointer; font-size: 15px;" id="demo">Ragister</a> / 
+                    <a class="m-0 text-sm-center text-center" style="cursor: pointer; font-size: 15px;" id="demo">Login</a>
+                </div>
+        </div>
+    </div>
+</div>
+    <nav>
+      <div class="container">
+          <div class="logo">
+            <img src="images/logo-white.webp" class="logo-image">
+          </div>
+        <div class="humberger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <div class="search">
+          <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+        </div>
+        <ul class="menu">
+          <li class="nav-items"><a class="navlinks" href="#">demos <i class="fa-sharp fa-solid fa-angle-down"></i></a>
+          <div class="megamenu py-3">
+            <ul class="drop-one">
+              <li class="mega-item-one"><a class="mega-link-one" href="#" style="font-weight: 600; font-size: 22px; cursor: auto;">Popular</a></li>
+              <li class="mega-item-one"><a class="mega-link-one" href="#">Demo Main</a></li>
+              <li class="mega-item-one"><a class="mega-link-one" href="#">Demo Classic</a></li>
+              <li class="mega-item-one"><a class="mega-link-one" href="#">Elegant</a></li>
+              <li class="mega-item-one"><a class="mega-link-one" href="#">Restaurant</a></li>
+              <li class="mega-item-one"><a class="mega-link-one" href="#">RTL</a></li>
+            </ul>
+            <ul class="drop-two">
+              <li class="mega-item-two"><a class="mega-link-two" href="#" style="font-weight: 600; font-size: 22px; cursor: auto;">University</a></li>
+              <li class="mega-item-two"><a class="mega-link-two" href="#">University New</a></li>
+              <li class="mega-item-two"><a class="mega-link-two" href="#">Ivy League</a></li>
+              <li class="mega-item-two"><a class="mega-link-two" href="#">Stanford</a></li>
+              <li class="mega-item-two"><a class="mega-link-two" href="#">Grad School</a></li>
+              <li class="mega-item-two"><a class="mega-link-two" href="#">University</a></li>
+              <li class="mega-item-two"><a class="mega-link-two" href="#">Modern University</a></li>
+            </ul>
+            <ul class="drop-three">
+              <li class="mega-item-three"><a class="mega-link-three" href="#" style="font-weight: 600; font-size: 22px; cursor: auto;">Academy</a></li>
+              <li class="mega-item-three"><a class="mega-link-three" href="#">Udemy</a></li>
+              <li class="mega-item-three"><a class="mega-link-three" href="#">Coursera</a></li>
+              <li class="mega-item-three"><a class="mega-link-three" href="#">New Art</a></li>
+              <li class="mega-item-three"><a class="mega-link-three" href="#">Kid Art</a></li>
+              <li class="mega-item-three"><a class="mega-link-three" href="#">Course Hub</a></li>
+            </ul>
+            <ul class="drop-four">
+              <li class="mega-item-four"><a class="mega-link-four" href="#" style="font-weight: 600; font-size: 22px; cursor: auto;">Technology</a></li>
+              <li class="mega-item-four"><a class="mega-link-four" href="#">Edtech</a></li>
+              <li class="mega-item-four"><a class="mega-link-four" href="#">React</a></li>
+              <li class="mega-item-four"><a class="mega-link-four" href="#">Tech Camp</a></li>
+              <li class="mega-item-four"><a class="mega-link-four" href="#">Crypto</a></li>
+            </ul>
+            <ul class="drop-five">
+              <li class="mega-item-five"><a class="mega-link-five" href="#" style="font-weight: 600; font-size: 22px; cursor: auto;">School</a></li>
+              <li class="mega-item-five"><a class="mega-link-five" href="#">Kindergarten</a></li>
+              <li class="mega-item-five"><a class="mega-link-five" href="#">Online School</a></li>
+              <li class="mega-item-five"><a class="mega-link-five" href="#">Language School</a></li>
+            </ul>
+            <ul class="drop-six">
+              <li class="mega-item-six"><a class="mega-link-six" href="#" style="font-weight: 600; font-size: 22px; cursor: auto;">Personal</a></li>
+              <li class="mega-item-six"><a class="mega-link-six" href="#">Tutor LMS</a></li>
+              <li class="mega-item-six"><a class="mega-link-six" href="#">One Instructor</a></li>
+              <li class="mega-item-six"><a class="mega-link-six" href="#">Instructor</a></li>
+              <li class="mega-item-six"><a class="mega-link-six" href="#">One Course</a></li>
+            </ul>
+          </div>
+          </li>
+          <li class="nav-items"><a class="navlinks course" href="#">courses <i class="fa-sharp fa-solid fa-angle-down"></i></a>
+            <div class="megamenu-two py-3">
+              <ul class="drop-one">
+                <li class="mega-item-one"><a class="mega-link-one" href="#" style="font-weight: 600; font-size: 22px; cursor: auto;">Popular</a></li>
+                <li class="mega-item-one"><a class="mega-link-one" href="#">Demo Main</a></li>
+                <li class="mega-item-one"><a class="mega-link-one" href="#">Demo Classic</a></li>
+                <li class="mega-item-one"><a class="mega-link-one" href="#">Elegant</a></li>
+                <li class="mega-item-one"><a class="mega-link-one" href="#">Restaurant</a></li>
+                <li class="mega-item-one"><a class="mega-link-one" href="#">RTL</a></li>
+              </ul>
+              <ul class="drop-two">
+                <li class="mega-item-two"><a class="mega-link-two" href="#" style="font-weight: 600; font-size: 22px; cursor: auto;">University</a></li>
+                <li class="mega-item-two"><a class="mega-link-two" href="#">University New</a></li>
+                <li class="mega-item-two"><a class="mega-link-two" href="#">Ivy League</a></li>
+                <li class="mega-item-two"><a class="mega-link-two" href="#">Stanford</a></li>
+                <li class="mega-item-two"><a class="mega-link-two" href="#">Grad School</a></li>
+                <li class="mega-item-two"><a class="mega-link-two" href="#">University</a></li>
+                <li class="mega-item-two"><a class="mega-link-two" href="#">Modern University</a></li>
+              </ul>
+              <ul class="drop-three">
+                <li class="mega-item-three"><a class="mega-link-three" href="#" style="font-weight: 600; font-size: 22px; cursor: auto;">Academy</a></li>
+                <li class="mega-item-three"><a class="mega-link-three" href="#">Udemy</a></li>
+                <li class="mega-item-three"><a class="mega-link-three" href="#">Coursera</a></li>
+                <li class="mega-item-three"><a class="mega-link-three" href="#">New Art</a></li>
+                <li class="mega-item-three"><a class="mega-link-three" href="#">Kid Art</a></li>
+                <li class="mega-item-three"><a class="mega-link-three" href="#">Course Hub</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-items"><a class="navlinks" href="#">pages <i class="fa-sharp fa-solid fa-angle-down"></i></a>
+            <div class="megamenu-three py-3">
+              <ul class="drop-one">
+                <li class="mega-item-one"><a class="mega-link-one" href="#" style="font-weight: 600; font-size: 22px; cursor: auto;">Popular</a></li>
+                <li class="mega-item-one"><a class="mega-link-one" href="#">Demo Main</a></li>
+                <li class="mega-item-one"><a class="mega-link-one" href="#">Demo Classic</a></li>
+                <li class="mega-item-one"><a class="mega-link-one" href="#">Elegant</a></li>
+                <li class="mega-item-one"><a class="mega-link-one" href="#">Restaurant</a></li>
+                <li class="mega-item-one"><a class="mega-link-one" href="#">RTL</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-items"><a class="navlinks" href="#">events</a></li>
+          <li class="nav-items"><a class="navlinks" href="#">blog</a></li>
+          <li class="nav-items"><a class="navlinks" href="#">shop</a></li>
+          <li class="nav-items"><a class="navlinks" href="#">contact</a></li>
+        </ul>  
+      </div>
+    </nav>
+  </div>
+
+  <div class="slider">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide one">
+
+        </div>
+        <div class="swiper-slide two">
+
+        </div>
+        <div class="swiper-slide three">
+
+        </div>
+        <div class="swiper-slide four">
+
+        </div>
+      </div>
+      <div class="swiper-button-next text-light"></div>
+      <div class="swiper-button-prev text-light"></div>
+      <div class="swiper-pagination text-light"></div>      
+    </div>
+  </div>
+  
+  <div class="container mt-md-2 mt-lg-5">
+    <div class="row">
+          <div class="col-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 text-light d-flex justify-content-center align-items-center py-5 px-5 py-md-5 px-md-5 py-sm-5 px-sm-5 py-lg-5 px-lg-5 bg my-2">
+            <div class="icon-bestindustry">
+              <i class="bi bi-check2-circle fs-1"></i>
+            </div>
+            <div class="content">
+              <h2>BEST INDUSTRY LEADERS</h2>
+              <button class="btn btn-outline-warning">view more</button>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 text-light d-flex justify-content-center align-items-center py-5 px-5 py-md-5 px-md-5 py-sm-5 px-sm-5 py-lg-5 px-lg-5 bg my-2 mx-auto">
+            <div class="icon-bestindustry">
+              <i class="bi bi-file-earmark-arrow-up-fill fs-1"></i>
+            </div>
+            <div class="content">
+              <h2>LEARN COURSES ONLINE</h2>
+              <button class="btn btn-outline-warning">view more</button>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 text-light d-flex justify-content-center align-items-center py-5 px-5 py-md-5 px-md-5 py-sm-5 px-sm-5 py-lg-5 px-lg-5 bg my-2">
+            <div class="icon-bestindustry">
+              <i class="bi bi-book-half fs-1"></i>
+            </div>
+            <div class="content">
+              <h2>BOOK LIBRARY & STORE</h2>
+              <button class="btn btn-outline-warning">view more</button>
+            </div>
+          </div>
+    </div>
+  </div>
+<!-- start the card slider -->
+  <div class="container mt-5">
+    <h1>Popular Course​s</h1>
+    <p>Limitless learning, more possibilities</p>
+    <div class="owl-carousel owl-theme">
+      <div class="item" style="height: 400px;">
+        <div class="card"  style="height: 400px;">
+          <img src="images/course-2-768x512.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Keny white</h5>
+            <p class="card-text">How to teach online course</p>
+            <a href="#" class="btn btn-dark">view more</a>
+          </div>
+        </div>
+      </div>
+      <div class="item" style="height: 400px;">
+        <div class="card"  style="height: 400px;">
+          <img src="images/course-4-768x512.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Keny white</h5>
+            <p class="card-text">The Complete Online Teaching MasterClass</p>
+            <a href="#" class="btn btn-dark">view more</a>
+          </div>
+        </div>
+      </div>
+      <div class="item" style="height: 400px;">
+        <div class="card"  style="height: 400px;">
+          <img src="images/course-5-768x512.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Keny white</h5>
+            <p class="card-text">How to teach online course</p>
+            <a href="#" class="btn btn-dark">view more</a>
+          </div>
+        </div>
+      </div>
+      <div class="item" style="height: 400px;">
+        <div class="card"  style="height: 400px;">
+          <img src="images/create-an-lms-website-with-learnpress-3-1-768x512.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Keny white</h5>
+            <p class="card-text">Create an LMS Website with LearnPress</p>
+            <a href="#" class="btn btn-dark">view more</a>
+          </div>
+        </div>
+      </div>
+      <div class="item" style="height: 400px;">
+        <div class="card"  style="height: 400px;">
+          <img src="images/react-course-1.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Keny white</h5>
+            <p class="card-text">How to Create An Online Course</p>
+            <a href="#" class="btn btn-dark">view more</a>
+          </div>
+        </div>
+      </div>
+      <div class="item" style="height: 400px;">
+        <div class="card"  style="height: 400px;">
+          <img src="images/boys.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Keny white</h5>
+            <p class="card-text">Please A Hard Word</p>
+            <a href="#" class="btn btn-dark">view more</a>
+          </div>
+        </div>
+      </div>
+      <div class="item" style="height: 400px;">
+        <div class="card"  style="height: 400px;">
+          <img src="images/introduction-learnpress-lms-plugin-2-1-768x512.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Keny white</h5>
+            <p class="card-text">Introduction LearnPress LMS Plugin</p>
+            <a href="#" class="btn btn-dark">view more</a>
+          </div>
+        </div>
+      </div>
+      <div class="item" style="height: 400px;">
+        <div class="card"  style="height: 400px;">
+          <img src="images/fb-leverage-of-coding.jpg" class="card-img-top" alt="..." style="height: 210px;">
+          <div class="card-body">
+            <h5 class="card-title">Keny white</h5>
+            <p class="card-text">Learn To Code</p>
+            <a href="#" class="btn btn-dark">view more</a>
+          </div>
+        </div>
+      </div>
+      <div class="item" style="height: 400px;">
+        <div class="card"  style="height: 400px;">
+          <img src="images/course-2-768x512.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Keny white</h5>
+            <p class="card-text">How to teach online course</p>
+            <a href="#" class="btn btn-dark">view more</a>
+          </div>
+        </div>
+      </div>
+      <div class="item" style="height: 400px;">
+        <div class="card"  style="height: 400px;">
+          <img src="images/introduction-learnpress-lms-plugin-2-1-768x512.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Keny white</h5>
+            <p class="card-text">Introduction LearnPress LMS Plugin</p>
+            <a href="#" class="btn btn-dark">view more</a>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+<!-- end the card slider -->
+  <div class="ragister-now mt-5">
+    <div class="container">
+      <div class="row py-5">
+          <div class="col-md-12 col-lg-6 col-xl-6 col-xxl-6 text-light">
+            <p>GET 100 OF ONLINE COURSES FOR FREE</p>
+            <h1>REGISTER NOW</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, perspiciatis ullam nesciunt reiciendis quam illo tempora temporibus officia autem deleniti porro, magnam corrupti mollitia nam doloremque, consequuntur eos explicabo iure libero esse nemo unde voluptatum? Ex, esse corporis commodi quia facere rerum, sint voluptas aliquam quisquam deserunt soluta natus numquam error. Consequuntur, error corrupti eos quod quasi doloremque iusto harum fugit magni sed. Quaerat quibusdam quia dolor voluptatibus nisi, ipsam ex eum molestias expedita at aperiam corporis, eveniet quod quasi aliquam. Quis id numquam perferendis iste amet quae. Itaque ab sunt nesciunt. Fugiat quis quia asperiores quidem possimus nostrum eligendi.</p>
+          </div>
+          <div class="col-md-12 col-lg-6 col-xl-6 col-xxl-6 text-light">
+              <h5>Create your free account now and immediately get access to 100s of online courses.</h5>
+              <input placeholder="Name" type="text" class="w-100 my-3 " style="height: 50px; padding: 0 15px;">
+              <input placeholder="Email" type="email" class="w-100 my-3 " style="height: 50px; padding: 0 15px;">
+              <input placeholder="Phone" type="mobil" class="w-100 my-3 " style="height: 50px; padding: 0 15px;">
+
+              <button href="#" class="btn btn-warning w-100 my-3" style="height: 50px;">GET IN NOW</button>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <!--end the ragister now  -->
+<div class="section-five">
+  <div class="container py-5 text-center">
+    <h1>Why Choose Us?</h1>
+    <p>A choice that makes the difference.</p>
+    <div class="row py-5">
+      <div class="col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+        <div class="card text-center p-5 bg-light my-2">
+          <i class="bi bi-explicit-fill fs-1 py-3 text-warning"></i>
+          <h3 class="py-3">Highly Experienced</h3>
+          <p class="">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur</p>
+        </div>
+      </div>
+      <div class="col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+        <div class="card text-center p-5 bg-light my-2">
+          <i class="bi bi-bookmark-check fs-1 py-3 text-warning"></i>
+          <h3 class="py-3">Question, Quiz & Course</h3>
+          <p class="">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur</p>
+        </div>
+      </div>
+      <div class="col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+        <div class="card text-center p-5 bg-light my-2">
+          <i class="bi bi-chat-quote fs-1 py-3 text-warning"></i>
+          <h3 class="py-3">Dedicated Support</h3>
+          <p class="">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur</p>
+        </div>
+      </div>
+    </div>
+    <button class="btn btn-warning">
+      LEARN MORE
+    </button>
+  </div>
+</div>
+  <!--end the section-five  -->
+
+
+  <!-- start the Event-->
+  <div class="container py-5">
+    <div class="d-flex">
+    <h1>Events</h1>
+      <button class="btn btn-outline-warning ms-auto h-75">VIEW ALL</button>  
+    </div> 
+    <p>Upcoming Education Events to feed your brain.</p> 
+    <div class="row border">
+      <div class="col-md-1 text-center d-flex flex-column my-4">
+        <h1 class="text-warning" style="font-size: 80px;">15</h1>
+        <p>December</p>
+    </div>
+    <div class="col-md-7 px-5 my-4">
+      <h3>Applying Natural Laws to Technology and Society</h3>
+      <div class="my-3">
+      <span><i class="bi bi-alarm"></i> 08:00 - 17:00</span><span class="mx-5"><i class="bi bi-geo-alt"></i> DELHI, INDIA</span>
+    </div>
+      <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris itae erat conuat</p>
+    </div>
+    <div class="col-md-4 my-4 px-5">
+      <img src="images/course-6-450x233.webp" class="w-100 eventimages" style="border-radius: 3px;">
+    </div>
+  </div>
+
+
+
+  <div class="row border mt-4">
+      <div class="col-md-1 text-center d-flex flex-column my-4">
+          <h1 class="text-warning" style="font-size: 80px;">30</h1>
+          <p>September</p>
+      </div>
+      <div class="col-md-7 px-5 my-4">
+        <h3>Roundtable discussion on STEAM education</h3>
+        <div class="my-3">
+        <span><i class="bi bi-alarm"></i> 08:00 - 17:00</span><span class="mx-5"><i class="bi bi-geo-alt"></i> DELHI, INDIA</span>
+      </div>
+        <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris itae erat conuat</p>
+      </div> 
+      <div class="col-md-4 my-4 px-5">
+        <img src="images/course-7-450x233.webp" class="w-100 eventimages" style="border-radius: 3px;">
+      </div>
+    </div>
+  </div>
+<!--end the Event  -->
+
+<!-- start the card slider two -->
+<div class="card-slider-two pt-5">
+  <div class="container text-light">
+    <h1>Latest News</h1>
+    <p>Education news all over the world. </p>
+    <div class="owl-carousel owl-theme my-5 loop">
+      <div class="items">
+        <div class="card text-dark" style="height: 340px;">
+          <img src="images/card-img-1.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Keny white</h5>
+            <p class="card-text">Admin earns scholarship</p>
+          </div>
+        </div>
+      </div> 
+      <div class="items">
+        <div class="card text-dark" style="height: 340px;">
+          <img src="images/card-two-img-two.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Keny white</h5>
+            <p class="card-text">Becoming a better designer</p>
+          </div>
+        </div>
+      </div>  
+      <div class="items">
+        <div class="card text-dark" style="height: 340px;">
+          <img src="images/card-two-img-three.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Keny white</h5>
+            <p class="card-text">Education WP – Eduma</p>
+          </div>
+        </div>
+      </div>  
+      <div class="items">
+        <div class="card text-dark" style="height: 340px;">
+          <img src="images/card-two-img-four.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Keny white</h5>
+            <p class="card-text">Forensic team earns several</p>
+          </div>
+        </div>
+      </div>  
+      <div class="items">
+        <div class="card text-dark" style="height: 340px;">
+          <img src="images/card-two-img-five.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Keny white</h5>
+            <p class="card-text">Introducing: Dr. Deniz Zeynep</p>
+          </div>
+        </div>
+      </div>      
+  </div>
+</div>
+</div>
+<!-- end the card slider two -->
+
+<div class="testamonils mt-5">
+  <div class="container">
+    <h1 class="text-center">What People Say</h1>
+    <p class="text-center">How real people said about Education WordPress Theme.</p>
+        <div class="swiper mySwipers">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide text-center">
+              <div class="image mx-auto">
+                <img src="images/testamonils-1.webp" alt="">
+              </div>
+              <div class="images-introduction">
+                <p class="m-0 fw-bold">Elsie</p>
+                <div>Copyrighter</div>
+              </div>
+              <div class="image-content">
+                <p class="py-4 text-center">“LearnPress is a WordPress complete solution for creating a Learning Management System (LMS). It can help me to create courses, lessons and quizzes and manage them as easy as I want. I've learned a lot, and I highly recommend it. Thank you. ”</p>
+              </div>
+            </div>
+            <div class="swiper-slide text-center">
+              <div class="image mx-auto">
+                      <img src="images/testamonils-2.webp" alt="">
+              </div>
+              <div class="images-introduction">
+                <p class="m-0 fw-bold">Anthony</p>
+                <div>CEO</div>
+              </div>
+              <div class="image-content">
+                <p class="py-4 px-5 text-center">“ LearnPress is a comprehensive LMS solution for WordPress. This WordPress LMS Plugin can be used to easily create & sell courses online. Each course curriculum can be made with lessons & quizzes which can be managed with easy-to-use user interface, it never gets easier with LearnPress. ”</p>
+              </div>
+            </div>
+            <div class="swiper-slide text-center">
+              <div class="image mx-auto">
+                    <img src="images/testamonils-3.webp" alt="">
+              </div>
+              <div class="images-introduction">
+                <p class="m-0 fw-bold">Manuel</p>
+                <div>Designer</div>
+              </div>
+              <div class="image-content">
+                <p class="py-4 px-5 text-center">“ You don't need a whole ecommerce system to sell your online courses. Paypal, Stripe payment methods integration can help you sell your courses out of the box. In the case you wanna use WooCommerce, this awesome WordPress LMS Plugin will serve you well too. ”</p>
+              </div>
+            </div>
+            <div class="swiper-slide text-center">
+              <div class="image mx-auto">
+                <img src="images/testamonils-4.webp" alt="">              
+              </div>
+              <div class="images-introduction">
+                <p class="m-0 fw-bold">Susan Jackson</p>
+                <div>WordPress Developer</div>
+              </div>
+              <div class="image-content">
+                <p class="py-4 px-5 text-center">“ Education WP Theme is a comprehensive LMS solution for WordPress Theme. This beautiful theme based on LearnPress - the best WordPress LMS plugin. Education WP theme will bring you the best LMS experience ever with super friendly UX and complete eLearning features. ”</p>
+              </div>              
+            </div>
+            <div class="swiper-slide text-center">
+              <div class="image mx-auto">
+                <img src="images/testamonils-5.webp" alt="">          
+              </div>
+              <div class="images-introduction">
+                <p class="m-0 fw-bold">John Doe</p>
+                <div>Front-end Developer</div>
+              </div>
+              <div class="image-content">
+                <p class="py-4 px-5 text-center">“ Education WP Theme is a comprehensive LMS solution for WordPress Theme. This beautiful theme based on LearnPress - the best WordPress LMS plugin. Education WP theme will bring you the best LMS experience ever with super friendly UX and complete eLearning features. ”</p>
+              </div>              
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>      
+        </div>
+    </div>
+  </div>
+
+<div class="mail">
+  <div class="container bg-mail">
+    <div class="row py-5">
+      <div class="col-md-12 col-lg-6 col-xl-6 col-xxl-6 px-5">
+        <p>Subscribe now and receive weekly newsletter with educational materials, new courses, interesting posts, popular books and much more!</p>
+      </div>
+      <div class="col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+        <div class="input-box d-flex">
+          <input type="email" required placeholder="Email" class="w-75 py-2 px-4" style="outline: none; height: 60px; border-right: none; border:1px solid #F6BA07;">
+          <button class="bg-warning" style="width: 150px; height: 60px; border: none;">SUBSCRIBE</button>
+        </div>       
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-dark text-muted py-5">
+
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <a class="text-uppercase fw-bold mb-4">
+            <img src="images/logo-white.webp" alt="" class="w-100">
+          </a>
+          <p>
+            Here you can use rows and columns to organize your footer content. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Company
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">About</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Blog</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Contact</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Become a Teacher</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Courses</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Events</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Gallery</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">FAQs</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3"></i> India, Delhi,</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@example.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+</footer>
+<!-- Footer -->
+
+<div class="bg-footer text-center align-items-center justify-content-center d-flex flex-column">
+    <h1>BECOME AN INSTRUCTOR?</h1>
+    <p>Join thousand of instructors and earn money hassle free!</p>
+    <button class="outline-dark" style="width: 200px; height: 60px;" >GET STARTED NOW</button>
+</div>
+<!-- back to top button -->
+<button id="backtoTopButton"><i class="bi bi-arrow-up-short"></i></button>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="scripat.js"></script>
+
+
+</body>
+</html>
