@@ -74,7 +74,7 @@ $(document).ready(function() {
             }
         }
     })
-})
+});
 
 // back to top button
 var backtoTopButton = document.getElementById('backtoTopButton');
