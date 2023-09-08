@@ -58,7 +58,7 @@ nav{
     text-transform: uppercase;
 }
 .navlinks:hover{
-    color: rgba(140, 0, 255, 0.782);
+    color: rgba(252, 250, 254, 0.782);
 }
 .humberger{
 	display: none;
