@@ -99,6 +99,10 @@ backtoTopButton.addEventListener("click", () => {
 // testamonils slider ke liye
 
 var swiper = new Swiper(".mySwipers", {
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
